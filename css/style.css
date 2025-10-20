@@ -1,0 +1,716 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.section1 {
+    background-image: url(./images/herosection.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-block: 41px;
+    position: relative;
+}
+
+.section1 h1 {
+    color: #FFFFFF;
+    font-size: 84px;
+    font-weight: 400;
+    margin-top: 142px;
+    margin-bottom: 16px;
+
+}
+
+.section1 p {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.circles .circle {
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: #FFFFFF;
+}
+
+.circles .circle:first-child {
+    background-color: #FF7757;
+}
+
+.circles {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: absolute;
+    left: 95%;
+    top: -20px;
+}
+
+.circles img {
+    width: 14px;
+    height: 6px;
+}
+
+.relative {
+    position: relative;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid #FF7757;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 20px;
+}
+
+.login {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.signUp {
+    border-radius: 12px;
+    padding: 20px 32px 20px 32px;
+    color: #FFFFFF;
+    background-color: #FF7757;
+}
+
+.signUp p {
+    margin: 0;
+}
+
+.gap-36 {
+    gap: 36px !important;
+}
+
+.padding-inline-182 {
+    padding-inline: 182px !important;
+}
+
+.bookingContainer {
+    /* position: absolute; */
+    padding: 74px 182px;
+    background-color: #FFFFFF;
+    display: flex;
+    gap: 40px;
+    width: fit-content;
+}
+
+.bookingContainer input {
+    border: none;
+    appearance: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.bookingContainer .inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.bookNow {
+    background-color: #FF7757;
+
+}
+
+.bookNow p {
+    color: white;
+}
+
+.line {
+    width: 365px;
+    height: 3px;
+    background-color: #FF7757;
+}
+
+.inputGroup select {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 225px;
+    outline: none;
+}
+
+.booking .bookNow {
+    height: 100%;
+    width: fit-content;
+    padding: 74px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    align-items: center;
+    display: flex;
+    gap: 12px;
+}
+
+.booking {
+    display: flex;
+    margin-top: 50px;
+}
+
+.cardStyle {
+    width: 497px;
+    height: 661px;
+    border-radius: 26px;
+}
+
+.cardImgStyle {
+    height: 100%;
+    width: 100%;
+    border-radius: 26px;
+}
+
+.cardOverlayStyle {
+    bottom: 40px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.card-img-overlay>img {
+    width: 17px;
+    height: 24px;
+}
+
+.location {
+    display: flex;
+    gap: 16px;
+}
+
+.imageContainer {
+    display: flex;
+    gap: 32px;
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+
+.line {
+    margin-bottom: 32px;
+    margin-top: 20px;
+}
+
+.arrow {
+    width: 60px;
+    height: 66px;
+    border-radius: 12px;
+    padding: 2px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrows>div:first-child {
+    background-color: #172432;
+}
+
+.arrows>div:last-child {
+    background-color: #FF7757;
+}
+
+.arrow img {
+    width: 10px;
+    height: 20px;
+}
+
+.arrows {
+    display: flex;
+    gap: 40px;
+}
+
+.section2-header {
+    display: flex;
+    padding-top: 140px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 100px;
+}
+
+.arrows:last-child {
+    margin-top: 100px;
+}
+
+.section3,
+.section4,
+.section5,
+.section6,
+.section7 {
+    padding-top: 140px;
+}
+
+.btn-orange {
+    background-color: #FF7654 !important;
+    height: fit-content !important;
+    padding: 10px 40px !important;
+    color: #FFFFFF !important;
+}
+
+.section3-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 100px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.w-241 {
+    width: 241px !important;
+}
+
+.specialOffer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.card {
+    width: 497px !important;
+    border-radius: 26px !important;
+    border-color: white !important;
+}
+
+.card-img-top {
+    height: 286px !important;
+    border-top-left-radius: 26px !important;
+    border-top-right-radius: 26px !important;
+}
+
+.w-136 {
+    width: 136px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.card-body {
+    background-color: #FFF8F1 !important;
+    height: fit-content !important;
+    border-bottom-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricingInfo {
+    display: flex;
+    gap: 8px;
+}
+
+.w-150 {
+    width: 150px;
+}
+
+.travelImage {
+    display: flex;
+    width: 762px;
+    height: 873px;
+    border-radius: 26px;
+    gap: 32px;
+}
+
+.travelExplain {
+    display: flex;
+    margin-top: 100px;
+}
+
+.travelbody {
+    display: flex;
+    flex-direction: column;
+    margin-top: 106px;
+    margin-left: 32px;
+}
+
+.readMore {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.travelText {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 52px;
+}
+
+.readImage {
+    width: 27px;
+    height: 15px;
+}
+
+.readMore p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 52px;
+    color: #FF7757;
+}
+
+.card-body .card-title {
+    font-weight: 400;
+    font-size: 26px;
+    color: #767E86;
+}
+
+.card-body .card-text {
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    color: #172432;
+}
+
+.pricingInfo p:first-child {
+    font-size: 20px;
+    color: #767E86;
+}
+
+.pricingInfo p:nth-child(2) {
+    color: #FF7757;
+    font-size: 40px;
+}
+
+.pricingInfo {
+    display: flex;
+    align-items: center;
+}
+
+.section4 .line {
+    margin-top: 20px;
+}
+
+.w-231 {
+    width: 231px;
+}
+
+.section5 .ourBlog {
+    max-width: 394px;
+}
+
+.section5 .ourBlog p {
+    font-size: 18px;
+    color: #767E86;
+}
+
+.smallButtons {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+}
+
+.gray {
+    background-color: #767E86;
+}
+
+.black {
+    background-color: #172432;
+}
+
+.orange {
+    width: 186px;
+    height: 61px;
+    border-radius: 12px;
+    background-color: #FF7757;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+}
+
+.buttons {
+    position: relative;
+    margin-top: 50px;
+}
+
+.top34 {
+    top: 34px;
+}
+
+.left170 {
+    left: 170px;
+}
+
+.top20 {
+    top: -20px;
+    left: -10px;
+}
+
+.images {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.w-300 {
+    width: 300px;
+}
+
+.image {
+    border-radius: 26px;
+    height: 399px;
+}
+
+.days {
+    display: flex;
+}
+
+.gap-108 {
+    gap: 108px;
+}
+
+.gap-70 {
+    gap: 70px;
+}
+
+
+.tour {
+    font-size: 18px;
+}
+
+.cityTour {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.money {
+    font-size: 18px;
+}
+
+.w-283 {
+    width: 283px;
+}
+
+.section5 {
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    gap: 100px;
+}
+
+.days img {
+    width: 136px;
+    height: 24px;
+}
+
+.section6 .images .image {
+    width: 365px;
+    height: 570px;
+    border-radius: 26px;
+}
+
+.section6-header {
+    display: flex;
+    padding-top: 140px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 100px;
+}
+
+.section6 .images .image:nth-child(2) {
+    margin-bottom: 140px;
+}
+
+.w-347 {
+    width: 347px;
+}
+
+.cardsContainer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-top: 160px;
+}
+
+.section7 .gray {
+    position: relative;
+    padding-block: 60px 40px;
+    padding-inline: 40px;
+    width: fit-content;
+    height: fit-content;
+    background-color: #F5F6F7;
+    display: flex;
+    max-width: 663px;
+}
+
+.section7 .gray>img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: -60px;
+}
+
+.cardsContent img {
+    width: 136px;
+    height: 24px;
+}
+
+.cardsContent {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.cardsContent p {
+    font-size: 18px;
+    color: #767E86;
+}
+
+.name p:first-child {
+    font-size: 24px;
+}
+
+.section7 .arrows {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.section7 {
+    padding-bottom: 240px;
+}
+
+.section8 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter {
+    padding-block: 60px;
+    padding-inline: 80px;
+    border-radius: 26px;
+    width: fit-content;
+    height: fit-content;
+    background-color: #FFFFFF;
+    min-width: 1262px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    top: -20%;
+    gap: 100px;
+    box-shadow: 0 0 4px 0 #0000004D;
+}
+
+.newsletter h1 {
+    font-size: 64px;
+    color: #767E86;
+}
+
+.newsletter p {
+    font-size: 20px;
+}
+
+.newsletter .email {
+    color: #767E86;
+    margin-bottom: 16px;
+}
+
+.enter {
+    background-color: #FFE8D4;
+    border-radius: 12px;
+    width: 372px;
+    height: 72px;
+    display: flex;
+    border: none;
+    outline: none;
+    padding-inline: 40px;
+}
+
+.enter::placeholder {
+    color: #FF7757;
+}
+
+.subscribe {
+    width: 163px;
+    height: 73px;
+    border-radius: 12px;
+    background-color: #FF7757;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsEmail {
+
+}
+
+.emailSubscribe {
+    display: flex;
+    gap: 32px;
+    align-items: flex-end;
+}
+
+.section8-body {
+    background-color: #172432;
+    width: 1920px;
+    height: 577px;
+    display: flex;
+    padding-block: 240px 140px;
+    padding-inline: 182px;
+}
+
+.Copyright {
+    color: white;
+    margin-top: 16px;
+}
+
+.menus {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width:100% ;
+}
+
+.menus p {
+    font-size: 18px;
+}
+
+.menus p:first-child {
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.icon-images {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.icon-images img:nth-child(2) {
+    width: 40px;
+    height: 40px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.menu p:first-child{
+    margin-bottom: 4px;
+    font-weight: 500;
+}
