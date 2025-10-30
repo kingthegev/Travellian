@@ -161,6 +161,7 @@ p {
     width: 497px;
     height: 661px;
     border-radius: 26px;
+    flex-shrink: 0;
 }
 
 .cardImgStyle {
@@ -188,7 +189,7 @@ p {
 
 .imageContainer {
     display: flex;
-    gap: 200px;
+    gap: 32px;
     justify-content: space-between;
     padding-left: 300px;
     overflow-x: scroll;
@@ -341,6 +342,8 @@ p {
     flex-direction: column;
     margin-top: 106px;
     margin-left: 32px;
+    max-width: 762px;
+    width: auto;
 }
 
 .readMore {
@@ -404,7 +407,9 @@ p {
 }
 
 .section5 .ourBlog {
-    max-width: 394px;
+    min-width: 197px;
+    padding-left: 300px;
+    max-width: 600px;
 }
 
 .section5 .ourBlog p {
@@ -461,6 +466,7 @@ p {
     display: flex;
     gap: 32px;
     align-items: center;
+    overflow-x: scroll;
 }
 
 .w-300 {
@@ -542,6 +548,10 @@ p {
     flex-direction: row;
     gap: 32px;
     margin-top: 160px;
+    overflow-x: scroll;
+    padding-left: 300px;
+    padding-top: 60px;
+    /* min-height: 450px; */
 }
 
 .section7 .gray {
@@ -552,7 +562,7 @@ p {
     height: fit-content;
     background-color: #F5F6F7;
     display: flex;
-    max-width: 663px;
+    min-width: 663px;
 }
 
 .section7 .gray>img {
@@ -656,7 +666,6 @@ p {
     justify-content: center;
 }
 
-.newsEmail {}
 
 .emailSubscribe {
     display: flex;
@@ -670,7 +679,6 @@ p {
     height: 577px;
     display: flex;
     padding-block: 240px 140px;
-    padding-inline: 182px;
 }
 
 .Copyright {
@@ -717,3 +725,9 @@ p {
     margin-bottom: 4px;
     font-weight: 500;
 }
+
+.section6 .images {
+    overflow-x: visible;
+}
+
+.section7 .ourBlog {}
