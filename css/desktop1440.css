@@ -1,0 +1,45 @@
+.container {
+    padding-inline: 32px !important;
+    max-width: 100%;
+}
+
+.section1 .bookingContainer {
+    padding-left: 32px;
+}
+
+.booking .bookNow {
+    padding: 74px 20px !important;
+}
+
+.section1 .subtitle {
+    margin-bottom: 170px;
+}
+
+.section2 .imageContainer {
+    padding-left: 32px !important;
+}
+
+.section6 .images {
+    overflow-x: auto !important;
+}
+
+.section7 .cardsContainer {
+    padding-left: 32px !important;
+}
+
+.section7 .gray{
+    min-width: 562px !important;
+}
+
+.section7 .arrows{
+    margin-right: 32px;
+}
+
+.icon-images img, .icon-images img:nth-child(2){
+    width: 25px !important;
+    height: 25px !important;
+}
+
+.icon-images{
+    gap: 18px !important;
+}

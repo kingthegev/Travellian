@@ -1,0 +1,117 @@
+p
+{
+    margin-bottom: 0;
+}
+.container {
+    padding-inline: 32px !important;
+    max-width: 100%;
+}
+
+.bookingContainer {
+    padding-left: 32px;
+    padding-right: 100px;
+}
+
+.booking .bookNow {
+    padding-inline: 20px;
+}
+
+.booking {
+    max-width: 1056px;
+}
+
+.bookingContainer .inputGroup:first-child {
+    width: 159px;
+}
+
+.inputGroup select {
+    width: 159px;
+}
+
+.card-img {
+    width: 497px;
+    height: 661px;
+}
+
+.section2 .imageContainer {
+    padding-left: 32px !important;
+}
+
+.pricingInfo p:nth-child(2) {
+    font-size: 28px;
+}
+
+.pricingInfo p:first-child {
+    font-size: 18px;
+}
+
+.travelImage {
+    width: 528px;
+    height: 686px;
+}
+
+.travelText {
+    font-size: 18px;
+    line-height: 42px;
+}
+
+.section5 {
+    gap: 80px;
+}
+
+.image {
+    max-height: 350px;
+    max-width: 250px;
+}
+
+.section5 .ourBlog {
+    max-width: 394px;
+}
+
+.gap-70 {
+    gap: 20px;
+}
+
+.gap-108 {
+    gap: 57px;
+}
+
+.section7 .gray {
+    min-height: 359px;
+    min-width: 500px;
+}
+
+.cardsContainer{
+    padding-left: 32px;
+}
+.newsletter h1{
+    font-size: 54px;
+    font-weight: 400;
+}
+
+.section7 .arrows{
+    padding-right: 32px;
+}
+
+.newsletter{
+    max-width: 1080px;
+    min-width: 0;
+    gap: 60px;
+    padding-inline: 40px;
+}
+
+.section8-body{
+    width: 100%;
+}
+
+.menus{
+    max-width: 1088px !important; 
+}
+
+.icon-images{
+    gap: 12px;
+}
+
+.Copyright{
+    font-size: 14px !important;
+}

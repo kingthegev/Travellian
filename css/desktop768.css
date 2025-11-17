@@ -1,0 +1,40 @@
+.container {
+    padding-inline: 32px !important;
+    max-width: 100%;
+}
+
+.section1 h1 {
+    font-size: 54px;
+}
+
+.bookingContainer {
+    padding-left: 32px;
+    padding-right: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr !important;
+    max-width:659px ;
+    flex: 1;
+}
+
+.booking .bookNow {
+    padding-inline: 20px;
+    height: auto;
+}
+
+.bookingContainer .inputGroup input, .inputGroup select{
+    width: 100% !important;
+    max-width: 159px;
+}
+
+
+.bookNow p{
+    font-size: 36px;
+}
+
+.booking{
+    max-width: 659px;
+}
+
+.circles{
+    top: -140px;
+}
