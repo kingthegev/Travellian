@@ -1,5 +1,10 @@
+p
+{
+    margin-bottom: 0;
+}
+
 .container {
-    padding-inline: 32px !important;
+    padding-inline: 20px !important;
     max-width: 100%;
 }
 
@@ -12,7 +17,7 @@
     padding-right: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr !important;
-    max-width:659px ;
+    max-width: 659px;
     flex: 1;
 }
 
@@ -21,20 +26,50 @@
     height: auto;
 }
 
-.bookingContainer .inputGroup input, .inputGroup select{
+.bookingContainer .inputGroup input,
+.inputGroup select {
     width: 100% !important;
     max-width: 159px;
 }
 
 
-.bookNow p{
+.bookNow p {
     font-size: 36px;
 }
 
-.booking{
+.booking {
     max-width: 659px;
 }
 
-.circles{
+.circles {
     top: -140px;
+}
+
+.section2 .cardImgStyle, .section2 .card {
+    max-width: 100%;
+    min-width: 100%;
+    width: auto;
+    max-height: 456px;
+    height: auto;
+    border-radius: 26px;
+}
+
+.section2 .arrows:last-child {
+    justify-content: center !important;
+}
+
+.imageContainer {
+    padding-inline: 20px;
+}
+
+.section2-header{
+    padding-top: 80px;
+}
+.section2 .heading{
+    font-size: 54px;
+}
+
+.popularDestinations p{
+    font-size:20px ;
+    color: #767E86;
 }
