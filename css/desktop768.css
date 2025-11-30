@@ -1,5 +1,4 @@
-p
-{
+p {
     margin-bottom: 0;
 }
 
@@ -45,7 +44,8 @@ p
     top: -140px;
 }
 
-.section2 .cardImgStyle, .section2 .card {
+.section2 .cardImgStyle,
+.section2 .card {
     max-width: 100%;
     min-width: 100%;
     width: auto;
@@ -62,14 +62,105 @@ p
     padding-inline: 20px;
 }
 
-.section2-header{
+.section2-header {
     padding-top: 80px;
 }
-.section2 .heading{
+
+.section2 .heading {
     font-size: 54px;
 }
 
-.popularDestinations p{
-    font-size:20px ;
+.popularDestinations p {
+    font-size: 20px;
     color: #767E86;
+}
+
+.heading {
+    font-size: 54px;
+}
+
+.specialOffer p {
+    font-size: 24px;
+    color: #767E86;
+}
+
+.section4 h1 {
+    font-size: 54px;
+}
+
+.ourBlog p {
+    font-size: 24px;
+    color: #767E86;
+}
+
+.travelImage {
+    max-width: 100%;
+    min-width: 100%;
+    width: auto;
+    max-height: 456px;
+    height: auto;
+}
+
+.travelExplain {
+    flex-direction: column;
+}
+
+.travelText {
+    font-size: 18px;
+    line-height: 42px;
+}
+
+.section3-header {
+    justify-content: flex-end;
+}
+
+.section3 .card {
+    max-width: 100%;
+    min-width: 100%;
+    width: auto;
+    max-height: 456px;
+    height: auto;
+    min-height: 286px;
+}
+
+.card-img-top{
+object-fit: cover;
+}
+
+.section5{
+    flex-direction: column;
+}
+
+.section5 .ourBlog{
+    padding: 0;
+    min-width: 0;
+    max-width:100%;
+}
+.section5 .ourBlog p{
+    max-width: 332px;
+}
+
+.section5{
+    gap: 160px;
+}
+
+.section5 .images{
+    padding-inline: 20px;
+}
+
+.tour, .money{
+    font-size: 24px;
+}
+
+.cityTour{
+    font-size: 32px;
+}
+
+.days{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.guidedTour .days:nth-child(2){
+    margin-top: 12px !important;
 }
