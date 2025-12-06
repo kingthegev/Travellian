@@ -118,7 +118,6 @@ p {
     max-width: 100%;
     min-width: 100%;
     width: auto;
-    max-height: 456px;
     height: auto;
     min-height: 286px;
 }
@@ -142,6 +141,7 @@ object-fit: cover;
 
 .section5{
     gap: 160px;
+    padding-bottom: 0;
 }
 
 .section5 .images{
@@ -163,4 +163,58 @@ object-fit: cover;
 
 .guidedTour .days:nth-child(2){
     margin-top: 12px !important;
+}
+
+.section6 .images{
+    flex-direction: column;
+}
+
+.section6 .images .image{
+    width: 100%;
+    max-height: 351px;
+    object-fit: cover;
+}
+
+.section6 .images .image:nth-child(2){
+    margin-bottom: 0;
+}
+
+.section6 .arrows:last-child{
+    justify-content: center;
+}
+
+.section5 .w-300{
+    width: 100%;
+}
+
+.section6{
+    padding-top: 100px;
+}
+
+.cardsContainer{
+    padding-left: 32px;
+}
+
+.section7 .container{
+    padding-left: 32px !important;
+}
+
+.section7 .arrows{
+    justify-content: center;
+}
+
+.section3 .cards{
+    overflow-x: scroll;
+}
+
+.section3 .pricing{
+    margin-top: 24px;
+}
+
+.br-12{
+    border-radius: 12px !important;
+}
+
+.btn-orange{
+    font-size: 20px !important;
 }

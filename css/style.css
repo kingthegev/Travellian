@@ -728,4 +728,5 @@ p {
 
 .section6 .images {
     overflow-x: visible;
+    display: flex;
 }
