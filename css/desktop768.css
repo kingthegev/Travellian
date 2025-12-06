@@ -218,3 +218,31 @@ object-fit: cover;
 .btn-orange{
     font-size: 20px !important;
 }
+
+.newsletter{
+    min-width: 0;
+    width: 732px;
+    flex-direction: column;
+    gap: 60px;
+    padding: 40px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.newsletter h1{
+    font-size: 54px;
+    font-weight: 400;
+}
+
+.emailSubscribe{
+    width: 100%;
+    justify-content: center;
+}
+
+.enter{
+    min-width: 457px;
+}
+
+.section8{
+padding-inline: 18px;
+}
