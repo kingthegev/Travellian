@@ -13,6 +13,7 @@
     <link rel="stylesheet" media="screen and (min-width:1153px) and (max-width:1440px)" href="./css/desktop1440.css">
     <link rel="stylesheet" media="screen and (min-width:769px) and (max-width:1152px)" href="./css/desktop1152.css">
     <link rel="stylesheet" media="screen and (min-width:575px) and (max-width:768px)" href="./css/desktop768.css">
+    <link rel="stylesheet" media="screen and (max-width:320px)" href="./css/desktop320.css">
 </head>
 
 <body>
@@ -113,7 +114,7 @@
 
 
     </section>
- <section class="section2">
+    <section class="section2">
         <div class="section2-header container">
             <div class="popularDestinations">
                 <h1 class="heading">Popular Destinations</h1>
@@ -198,7 +199,7 @@
                             <p>From</p>
                             <p><i class="bi bi-currency-euro"></i>500</p>
                         </div>
-                        <button class="btn btn-orange">DETAILS</button>
+                        <button class="btn btn-orange br-12">DETAILS</button>
                     </div>
                 </div>
 
@@ -216,7 +217,7 @@
                             <p>From</p>
                             <p><i class="bi bi-currency-euro"></i>800</p>
                         </div>
-                        <button class="btn btn-orange">DETAILS</button>
+                        <button class="btn btn-orange br-12">DETAILS</button>
                     </div>
                 </div>
             </div>
@@ -233,10 +234,14 @@
                             <p>From</p>
                             <p><i class="bi bi-currency-euro"></i>800</p>
                         </div>
-                        <button class="btn btn-orange">DETAILS</button>
+                        <button class="btn btn-orange br-12">DETAILS</button>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="arrows d-none d-md-flex">
+            <div class="arrow"><img src="./images/leftArrow.png" alt=""></div>
+            <div class="arrow"><img src="./images/rightArrow.png" alt=""></div>
         </div>
     </section>
     <section class="section4 container">
@@ -267,7 +272,7 @@
             </div>
         </div>
     </section>
-     <section class="section5">
+    <section class="section5">
         <div class="ourBlog container">
             <h1>Trip Planners</h1>
             <div class="line w-231"></div>
@@ -280,7 +285,18 @@
             </div>
         </div>
         <div class="images row">
-            <img class="image w-300 col-md-12" src="./images/images1.jpg" alt="">
+            <div class="guidedTour">
+                <img class="image w-300 col-md-12" src="./images/images1.jpg" alt="">
+                <div class="days gap-108">
+                    <p class="tour">Guided Tour</p>
+                    <p class="money"><i class="bi bi-currency-euro"></i>99/Day</p>
+                </div>
+                <p class="cityTour">Rome City Tour</p>
+                <div class="days gap-70">
+                    <img src="./images/Rating.png" alt="">
+                    <p class="money">7 Days tour</p>
+                </div>
+            </div>
             <div class="guidedTour">
                 <img class="image w-300 col-md-12" src="./images/images2.jpg" alt="">
                 <div class="days gap-108">
@@ -293,8 +309,30 @@
                     <p class="money">7 Days tour</p>
                 </div>
             </div>
-            <img class="image w-300 col-md-12" src="./images/images3.jpg" alt="">
-            <img class="image w-300 col-md-12" src="./images/images4.jpg" alt="">
+            <div class="guidedTour">
+                <img class="image w-300 col-md-12" src="./images/images3.jpg" alt="">
+                <div class="days gap-108">
+                    <p class="tour">Guided Tour</p>
+                    <p class="money"><i class="bi bi-currency-euro"></i>89/Day</p>
+                </div>
+                <p class="cityTour">Barcelona City Tour</p>
+                <div class="days gap-70">
+                    <img src="./images/Rating.png" alt="">
+                    <p class="money">7 Days tour</p>
+                </div>
+            </div>
+            <div class="guidedTour">
+                <img class="image w-300 col-md-12" src="./images/images4.jpg" alt="">
+                <div class="days gap-108">
+                    <p class="tour">Guided Tour</p>
+                    <p class="money"><i class="bi bi-currency-euro"></i>89/Day</p>
+                </div>
+                <p class="cityTour">Budapest City Tour</p>
+                <div class="days gap-70">
+                    <img src="./images/Rating.png" alt="">
+                    <p class="money">7 Days tour</p>
+                </div>
+            </div>
         </div>
     </section>
     <!-- <section class="section6 container">
@@ -304,7 +342,7 @@
                 <div class="line w-283"></div>
                 <p>Our photo gallery on trip</p>
             </div>
-            <div class="arrows">
+            <div class="arrows d-none d-md-flex">
                 <div class="arrow"><img src="./images/leftArrow.png" alt=""></div>
                 <div class="arrow"><img src="./images/rightArrow.png" alt=""></div>
             </div>
@@ -314,6 +352,10 @@
             <img class="image" src="./images/2image.jpg" alt="">
             <img class="image" src="./images/3image.jpg" alt="">
             <img class="image" src="./images/4image.jpg" alt="">
+        </div>
+        <div class="arrows">
+            <div class="arrow"><img src="./images/leftArrow.png" alt=""></div>
+            <div class="arrow"><img src="./images/rightArrow.png" alt=""></div>
         </div>
     </section>
     <section class="section7">
@@ -383,7 +425,7 @@
                 </div>
             </div>
         </div>
-        <div class="section8-body">
+         <div class="section8-body">
             <div class="menus container">
                 <div class="title">
                     <div class="logo"><img src="./images/logo.png" alt="">
@@ -422,7 +464,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
     </section> -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
