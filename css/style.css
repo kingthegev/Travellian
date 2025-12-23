@@ -192,7 +192,8 @@ p {
     gap: 32px;
     justify-content: space-between;
     padding-left: 300px;
-    overflow-x: scroll;
+    overflow-x: auto;
+    scrollbar-width: none;
     width: 100%;
 }
 
@@ -729,4 +730,29 @@ p {
 .section6 .images {
     overflow-x: visible;
     display: flex;
+}
+
+.section3 .dis-flex {
+    display: none !important;
+}
+
+@media screen and (min-width:769px) {
+
+    .section5 .days,
+    .section5 .cityTour {
+        opacity: 0;
+    }
+
+    .section5 .guidedTour:hover .days,
+    .guidedTour:hover .cityTour {
+        opacity: 1;
+    }
+}
+
+.section2 .card, .card-img{
+    border-radius: 26px !important;
+}
+
+.section7 .arrows{
+    padding-right: 182px;
 }

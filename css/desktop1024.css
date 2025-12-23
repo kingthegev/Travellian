@@ -28,7 +28,7 @@ p {
 .bookingContainer .inputGroup input,
 .inputGroup select {
     width: 100% !important;
-    max-width: 159px;
+    max-width: 100%;
 }
 
 
@@ -37,7 +37,7 @@ p {
 }
 
 .booking {
-    max-width: 659px;
+    max-width: 700px;
 }
 
 .circles {
@@ -97,8 +97,8 @@ p {
     max-width: 100%;
     min-width: 100%;
     width: auto;
-    max-height: 456px;
-    height: auto;
+    height: 555px;
+    object-fit: cover;
 }
 
 .travelExplain {
@@ -122,113 +122,118 @@ p {
     min-height: 286px;
 }
 
-.card-img-top{
-object-fit: cover;
+.card-img-top {
+    object-fit: cover;
 }
 
-.section5{
+.section5 {
     flex-direction: column;
 }
 
-.section5 .ourBlog{
+.section5 .ourBlog {
     padding: 0;
     min-width: 0;
-    max-width:100%;
+    max-width: 100%;
 }
-.section5 .ourBlog p{
+
+.section5 .ourBlog p {
     max-width: 332px;
 }
 
-.section5{
+.section5 {
     gap: 160px;
     padding-bottom: 0;
 }
 
-.section5 .images .guidedTour{
-    width: 100%;
-}
-
-.section5 .image{
-    height: 513px;
-}
-
-.section5 .images{
+.section5 .images {
     padding-inline: 20px;
-    flex-direction: column;
 }
 
-.tour, .money{
+
+.section5 .image {
+    max-width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    height: auto;
+}
+
+.tour,
+.money {
     font-size: 24px;
 }
 
-.cityTour{
+.cityTour {
     font-size: 32px;
 }
 
-.days{
+.days {
     justify-content: space-between;
     margin-top: 20px;
 }
 
-.guidedTour .days:nth-child(2){
+.guidedTour .days:nth-child(2) {
     margin-top: 12px !important;
 }
 
-.section6 .images{
+.section6 .images {
     flex-direction: column;
 }
 
-.section6 .images .image{
+.section6 .images .image {
     width: 100%;
-    max-height: 351px;
+    max-height: 100%;
     object-fit: cover;
 }
 
-.section6 .images .image:nth-child(2){
+.section6 .images .image:nth-child(2) {
     margin-bottom: 0;
 }
 
-.section6 .arrows:last-child{
+.section6 .arrows:last-child {
     justify-content: center;
 }
 
-.section5 .w-300{
+.section5 .w-300 {
     width: 100%;
 }
 
-.section6{
-    padding-top: 100px;
+.section6 {
+    padding-top: 0;
 }
 
-.cardsContainer{
+.section6-header {
+    padding-top: 160px;
+}
+
+.cardsContainer {
     padding-left: 32px;
 }
 
-.section7 .container{
+.section7 .container {
     padding-left: 32px !important;
 }
 
-.section7 .arrows{
+.section7 .arrows {
     justify-content: center;
 }
 
-.section3 .cards{
+.section3 .cards {
     overflow-x: scroll;
 }
 
-.section3 .pricing{
+.section3 .pricing {
     margin-top: 24px;
 }
 
-.br-12{
+.br-12 {
     border-radius: 12px !important;
 }
 
-.btn-orange{
+.btn-orange {
     font-size: 20px !important;
 }
 
-.newsletter{
+.newsletter {
     min-width: 0;
     width: 732px;
     flex-direction: column;
@@ -239,28 +244,29 @@ object-fit: cover;
     top: -12%;
 }
 
-.newsletter h1{
+.newsletter h1 {
     font-size: 54px;
     font-weight: 400;
 }
 
-.emailSubscribe{
+.emailSubscribe {
     width: 100%;
     justify-content: center;
 }
 
-.enter{
+.enter {
     min-width: 457px;
 }
 
-.section8{
-padding-inline: 18px;
+.section8 {
+    padding-inline: 18px;
 }
 
-.section3 .dis-flex{
+.section3 .dis-flex {
     display: flex !important;
     justify-content: center;
 }
+
 .section8-body {
     margin-top: 163px;
     height: fit-content;
@@ -274,13 +280,10 @@ padding-inline: 18px;
     gap: 60px;
 }
 
-.navbar-brand img{
-    max-width: 100%;
-}
-.logo>img:first-child{
+.navbar-brand img {
     max-width: 100%;
 }
 
-.section3 .arrows:last-child{
-    justify-content: center;
+.logo>img:first-child {
+    max-width: 100%;
 }
