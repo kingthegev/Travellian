@@ -468,6 +468,7 @@ p {
     gap: 32px;
     align-items: center;
     overflow-x: scroll;
+    padding-top: 50px;
 }
 
 .w-300 {
@@ -746,6 +747,11 @@ p {
     .section5 .guidedTour:hover .days,
     .guidedTour:hover .cityTour {
         opacity: 1;
+    }
+
+    .section5 .guidedTour:hover{
+        transform: translateY(-50px);
+        transition: opacity 0.3 ease-in, transform 0.3 ease-out;
     }
 }
 

@@ -148,9 +148,6 @@ object-fit: cover;
     width: 100%;
 }
 
-.section5 .image{
-    height: 513px;
-}
 
 .section5 .images{
     padding-inline: 20px;
@@ -210,6 +207,7 @@ object-fit: cover;
 
 .section7 .arrows{
     justify-content: center;
+    padding-right: 0;
 }
 
 .section3 .cards{
@@ -283,4 +281,24 @@ padding-inline: 18px;
 
 .section3 .arrows:last-child{
     justify-content: center;
+}
+
+.display{
+    display: none !important;
+}
+
+.travelbody{
+    margin-left: 0;
+}
+
+.orange{
+    margin-left: 13px;
+}
+
+.top20{
+    left: 0;
+}
+
+.display-non{
+display: flex !important;
 }

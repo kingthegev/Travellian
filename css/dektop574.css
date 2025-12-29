@@ -55,7 +55,7 @@ p {
 
 .section1 .inputGroup input,
 .section1 .inputGroup select {
-    max-width: 248px;
+    max-width: 100%;
     width: auto;
 }
 
@@ -352,4 +352,12 @@ p {
 
 .section8 .emails{
     width: 100%;
+}
+
+.orange{
+    margin-left: 13px;
+}
+
+.top20{
+    left: 0;
 }
